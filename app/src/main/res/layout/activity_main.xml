@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F75A6EB3"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/productId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID продукта" />
+
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название продукта" />
+
+    <EditText
+        android:id="@+id/expirationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Срок годности" />
+
+    <EditText
+        android:id="@+id/supplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Поставщик" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Город"
+        android:textColor="#54B64D" />
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Страна" />
+
+    <EditText
+        android:id="@+id/companyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название компании" />
+
+    <EditText
+        android:id="@+id/calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Калории" />
+
+    <EditText
+        android:id="@+id/receptionDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата поступления" />
+
+    <EditText
+        android:id="@+id/barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Штрихкод" />
+
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DB3E3E"
+        android:text="Добавить продукт" />
+
+    <Button
+        android:id="@+id/deleteProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DB3E3E"
+        android:text="Удалить продукт"
+        android:textColorHighlight="#67A074" />
+
+    <Button
+        android:id="@+id/updateProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DB3E3E"
+        android:text="Обновить продукт" />
+
+    <Button
+        android:id="@+id/openDatabaseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DB3E3E"
+        android:text="Открыть базу данных" />
+
+    <Button
+        android:id="@+id/clearDatabaseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DB3E3E"
+        android:text="Очистить базу данных" />
+</LinearLayout>
